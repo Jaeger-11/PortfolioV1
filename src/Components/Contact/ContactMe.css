@@ -1,0 +1,76 @@
+.contactMe{
+    background-color: var(--red);
+    padding-top: 1rem;
+    padding: 1rem;
+    /* text-align: center; */
+}
+
+.c-header{
+    text-align: center;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+.c-flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.c-flex p{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.c-icons{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--blue);
+    margin-bottom: 2rem;
+}
+.c-icons:hover{
+    color: white;
+}
+
+.c-form {
+    text-align: center;
+}
+
+.name, .email, .message{
+    width: 80%;
+    height: 2rem;
+    margin: 0.5rem auto;
+}
+
+.message{
+    height: 5rem;
+}
+.message::placeholder{
+    font-family: sans-serif;
+}
+.c-btn{
+    width: 10rem;
+    background-color: var(--blue);
+    color: white;
+}
+.c-mail{
+    text-align: center;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+.c-mail span{
+    color:var(--darkblue);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 550px){
+    .name, .email, .message{
+        width: 65%;
+        height: 2rem;
+        margin: 0.5rem auto;
+    }
+}

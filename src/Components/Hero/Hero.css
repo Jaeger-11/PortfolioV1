@@ -1,0 +1,242 @@
+.container{
+    /* height: 100vh; */
+    padding:0px ;
+    /* background: linear-gradient(50vw, var(--orange), var(--primary)); */
+}
+
+.hero{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.header{
+    margin: auto;
+    position: absolute;
+    margin-top: 1.2rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.menu{
+    flex: 1;
+    position: relative;
+    background-color: var(--raisin);
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.menu a:hover{
+    color: var(--orange);
+}
+
+.menu>:nth-child(1){
+    position: absolute;
+    top: 15%;
+    right: 1rem;
+    animation-name: about ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.menu>:nth-child(2){
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    animation-name: project ;
+    animation-duration: 3s;
+}
+
+.menu>:nth-child(3 ){
+    position: absolute;
+    top: 75%;
+    left: 1rem;
+    animation-name: contact ;
+    animation-duration: 3s;
+}
+
+@keyframes about {
+    from{left: 0}
+    to{left: 1rem}
+}
+
+@keyframes project {
+    from{left: 0}
+    to{left: 45%}
+}
+@keyframes contact {
+    from{left: 75%}
+    to{left: 1rem}
+}
+
+.i-left{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    background-color: var(--orange);
+}
+
+.i-div{
+    flex: 2;
+    flex-direction: column;
+    height: max-content;
+    margin: auto 0;
+    /* background-color: var(--white);
+    padding: 1rem; */
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-transform: uppercase;
+}
+
+.i-name>:nth-child(1){
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.i-name>:nth-child(2){
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+
+.i-name>:nth-child(3){
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.i-name>:nth-child(4){
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: var(--onyx);
+}
+
+.i-btn{
+    width: 8rem;
+    margin-top: 3rem;
+    background-color: var(--raisin);
+    color: white;
+}
+.i-btn:hover{
+    background-color: var(--white);
+    color: var(--onyx);
+    font-weight: 500;
+}
+.a-contact{
+    color: white;
+    text-decoration: none;
+}
+
+.icons{
+    flex: 0.3;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons> a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.h-icons{
+    color: white;
+    transform: scale(1.5);
+}
+.h-icons:hover{
+    color: var(--onyx);
+}
+
+@media screen and (max-width: 550px){
+    .i-name>:nth-child(1){
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    
+    .i-name>:nth-child(2){
+        font-size: 1.7rem;
+        font-weight: 300;
+        font-style: italic;
+        color: white;
+    }
+    
+    .i-name>:nth-child(3){
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .i-name>:nth-child(4){
+        font-size: 1rem;
+        margin-top: 10px;
+        font-weight: 100;
+    }
+    .h-icons{
+        transform: scale(1);
+    }
+    .menu{
+        background-color: var(--orange);
+        color: var(--secondary);
+        position: absolute;
+        width: max-content;
+        right: 0.5rem;
+        top: 1.2rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .menu a{
+        font-size: 1rem;
+    }
+    .hero{
+        height: 85vh;
+    }
+    .menu>:nth-child(1){
+        position: static;
+    }
+    .i-left{
+        flex-wrap: wrap;
+        padding-left: 0.5rem;
+    }
+    .menu>:nth-child(2){
+        position: static;
+    }
+    
+    .menu>:nth-child(3 ){
+        position: static;
+    }
+    .header{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-height:500px) {
+    .left{
+        height: max-content;
+    }
+    .hero{
+        height: 500px;
+    }
+}

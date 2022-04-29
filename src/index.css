@@ -1,13 +1,50 @@
-body {
+:root{
+  --blue: #293462;
+  --darkblue: #211A4C;
+  --orange: #F33535;
+  --red: #A51C2D ;
+  --light :#e0e1dd;
+  --semilight: #778da9;
+  --gray: #415a77;
+  --dark:#1b263b;
+  --black: #0d1b2a;
+  --white : #FCFCFC;
+  --cadet : #5D737E;
+  --raisin : #30292F;
+  --onyx: #3F4045;
+  --black: #02111B;
+}
+
+*{
+  box-sizing: border-box;
   margin: 0;
+}
+body {
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: var(--cadet); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* *{
+  padding: 0;
+  margin: 0;
+} */
+
+.button{
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  /* border-radius: 20px;
+  color: white;
+  border: 0px; */
+}
+
