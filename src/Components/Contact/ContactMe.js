@@ -30,10 +30,10 @@ const ContactMe = () => {
                 <input type="submit" value="Send Message" className="button c-btn"/>
             </form>
             <div className="c-flex">
-                <a href="#"><FaTwitter className="c-icons"/></a>
-                <a href="#"><FaLinkedinIn className="c-icons"/></a> 
-                <a href="#"><FaWhatsapp className="c-icons"/></a> 
-                <a href="#"><FaInstagram className="c-icons"/></a> 
+                <a href="https://twitter.com/damzypaulzs"><FaTwitter className="c-icons"/></a>
+                <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a"><FaLinkedinIn className="c-icons"/></a> 
+                <a href="https://wa.me/qr/5MROWV25I5PYK1"><FaWhatsapp className="c-icons"/></a> 
+                <a href="https://www.instagram.com/_damzy_?r=nametag"><FaInstagram className="c-icons"/></a> 
             </div>
         </section>
     )

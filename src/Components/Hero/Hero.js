@@ -39,11 +39,11 @@ const Hero = () => {
                         <a href="#contact" className="a-contact"><button className="button i-btn"> Contact Me  </button> </a>
                     </div>
                     <div className="icons">
-                        <a href="#" ><FaTwitter className="h-icons"/></a>
-                        <a href="#" ><FaGithub className="h-icons"/></a>
-                        <a href="#" ><FaWhatsapp className="h-icons"/></a>
-                        <a href="#" ><FaLinkedinIn className="h-icons"/></a>
-                        <a href="#" ><FaInstagram className="h-icons"/></a>
+                        <a href="https://twitter.com/damzypaulzs" ><FaTwitter className="h-icons"/></a>
+                        <a href="https://github.com/Jaeger-11" ><FaGithub className="h-icons"/></a>
+                        <a href="https://wa.me/qr/5MROWV25I5PYK1" ><FaWhatsapp className="h-icons"/></a>
+                        <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a" ><FaLinkedinIn className="h-icons"/></a>
+                        <a href="https://www.instagram.com/_damzy_?r=nametag" ><FaInstagram className="h-icons"/></a>
                     </div>
                     <div className="menu">
                         <p> <a href="#about" className="sub"> About--{`>`} </a> </p>
