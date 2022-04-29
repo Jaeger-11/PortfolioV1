@@ -9,7 +9,7 @@ const Projects = [
     {
         name:'Cocktails',
         link:'http://cocktails-mocha.vercel.app/',
-        about:'A website showing information on drinks and cocktails built with react.js',
+        about:'A website showing information on drinks and cocktails built with react.js, API',
         github: 'https://github.com/Jaeger-11/cocktails.git',
         img: cocktail,
         cname: "project1",
@@ -17,7 +17,7 @@ const Projects = [
     {
         name:'Cart',
         link:'http://cart-js-mocha.vercel.app/',
-        about:'A website built with React.js using React Hooks(useReducer, useContext',
+        about:'A website built with React.js using React Hooks(useReducer, useContext)',
         github: 'https://github.com/Jaeger-11/cart-js.git',
         img: cart,
         cname: "project2",
@@ -25,7 +25,7 @@ const Projects = [
     {
         name:'Blogr Page',
         link:'http://blogr-page-rust.vercel.app/',
-        about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt',
+        about:'A responsive landing page built with HTML & CSS',
         github: 'https://github.com/Jaeger-11/Blogr-Page.git',
         img: blogr,
         cname: "project3",
@@ -41,7 +41,7 @@ const Projects = [
     {
         name:'Huddle Landing Page',
         link:'http://challenge8-amber.vercel.app/',
-        about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt',
+        about:'A responsive landing page built with HTML & CSS',
         github: 'https://github.com/Jaeger-11/challenge8.git ',
         img: huddle,
         cname: "project5",

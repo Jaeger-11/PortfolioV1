@@ -19,6 +19,12 @@
     color: white;
     font-weight: 500;
     font-size: 1.2rem;
+    font-family: 'Water Brush', sans-serif;
+}
+
+.header span{
+    color: var(--onyx);
+    font-family: 'Water Brush', sans-serif;
 }
 
 .menu{

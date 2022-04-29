@@ -28,7 +28,7 @@ const Hero = () => {
         <main className="container" ref={cont}>
             <div className="hero" id="hero">
                 <section className="i-left">
-                <header className="header" ref={headerRef}>Damilola</header>
+                <header className="header" ref={headerRef}> <span>Dami</span>lola.</header>
                     <div className="i-div">
                         <article className="i-name">
                             <span>Hey! I Am</span>
@@ -42,7 +42,7 @@ const Hero = () => {
                         <a href="https://twitter.com/damzypaulzs" ><FaTwitter className="h-icons"/></a>
                         <a href="https://github.com/Jaeger-11" ><FaGithub className="h-icons"/></a>
                         <a href="https://wa.me/qr/5MROWV25I5PYK1" ><FaWhatsapp className="h-icons"/></a>
-                        <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a" ><FaLinkedinIn className="h-icons"/></a>
+                        <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a8" ><FaLinkedinIn className="h-icons"/></a>
                         <a href="https://www.instagram.com/_damzy_?r=nametag" ><FaInstagram className="h-icons"/></a>
                     </div>
                     <div className="menu">

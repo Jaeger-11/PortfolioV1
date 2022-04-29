@@ -15,6 +15,8 @@
   --black: #02111B;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Water+Brush&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -34,17 +36,20 @@ code {
     monospace;
 }
 
-/* *{
-  padding: 0;
-  margin: 0;
-} */
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-weight: 300;
+}
 
 .button{
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-  /* border-radius: 20px;
-  color: white;
-  border: 0px; */
+  font-weight: 500 !important;
+  font-family: 'Water Brush', sans-serif !important;
+  font-size: 1rem;
+  cursor: pointer;
 }
 

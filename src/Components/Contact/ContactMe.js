@@ -31,7 +31,7 @@ const ContactMe = () => {
             </form>
             <div className="c-flex">
                 <a href="https://twitter.com/damzypaulzs"><FaTwitter className="c-icons"/></a>
-                <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a"><FaLinkedinIn className="c-icons"/></a> 
+                <a href="https://www.linkedin.com/in/oluwadamilola-falodun-b084221a8"><FaLinkedinIn className="c-icons"/></a> 
                 <a href="https://wa.me/qr/5MROWV25I5PYK1"><FaWhatsapp className="c-icons"/></a> 
                 <a href="https://www.instagram.com/_damzy_?r=nametag"><FaInstagram className="c-icons"/></a> 
             </div>

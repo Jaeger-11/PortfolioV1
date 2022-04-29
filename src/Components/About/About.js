@@ -32,7 +32,7 @@ const About = () => {
                 <article>
                     <p>
                     I'm Falodun Oluwadamilola, shortened as Dami, I am 19 years old and currently a final year student of Management & Accounting, Obafemi Awolowo University.
-                     I started my coding journey late 2020 and well i fell for it, i started out with python and HTML and decided to aim at being a Fullstack Developer & Data Analyst, well not there yet but soon...
+                    I started my coding journey late 2020 with python and HTML and fortunately I fell for it and decided to aim at being a Fullstack Developer, well not there yet but soon...
                     When I'm not coding, I love sports and games, especially football(soccer), a big fan of anime and movies. Arigato.. <br/>
                     I'm familiar with and work with this technologies and frameworks
                     </p>
@@ -41,12 +41,12 @@ const About = () => {
                         <li>HTML5 </li>
                         <li>CSS3</li>
                         <li>TailwindCSS</li>
-                        <li>JavaScript</li>
                     </ul> 
                     <ul>
+                        <li>JavaScript</li>
                         <li>React.js</li>
-                        <li>Python</li>
-                        <li>MySql</li>
+                        {/* <li>Python</li>
+                        <li>MySql</li> */}
                         <li>Styled Components</li>
                     </ul> 
                     </div>
