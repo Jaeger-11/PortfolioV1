@@ -29,11 +29,11 @@
 .c-icons{
     width: 1.5rem;
     height: 1.5rem;
-    color: var(--blue);
+    color: var(--white);
     margin-bottom: 2rem;
 }
 .c-icons:hover{
-    color: white;
+    color: var(--raisin);
 }
 
 .c-form {
@@ -54,7 +54,7 @@
 }
 .c-btn{
     width: 10rem;
-    background-color: var(--blue);
+    background-color: var(--raisin);
     color: white;
 }
 .c-mail{
@@ -63,7 +63,7 @@
     margin-bottom: 1rem;
 }
 .c-mail span{
-    color:var(--darkblue);
+    color:var(--raisin);
     font-weight: 500;
     display: inline;
 }
