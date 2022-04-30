@@ -65,6 +65,7 @@
 .c-mail span{
     color:var(--darkblue);
     font-weight: 500;
+    display: inline;
 }
 
 @media screen and (min-width: 550px){

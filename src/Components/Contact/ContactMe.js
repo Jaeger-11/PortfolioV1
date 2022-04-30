@@ -22,7 +22,7 @@ const ContactMe = () => {
     return(
         <section className="contactMe" id="contact">
             <h2 className="c-header">Contact me </h2>
-            <p className="c-mail">You can get in touch through my social networks or send an e-mail to <span>falodunoluwadamilolapaul@gmail.com</span> </p>
+            <p className="c-mail">You can get in touch through my social networks or send an e-mail to <span>damifalodun@gmail.com</span> </p>
             <form className="c-form" ref={form} onSubmit={sendEmail}>
                 <p><input type='text' placeholder = 'Name' required className="name" name="user_name"/></p>
                 <p><input type='email' placeholder = 'Email' required className="email" name="user_email" /> </p>
